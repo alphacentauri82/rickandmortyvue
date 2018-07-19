@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+  .galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+  .instructions{
+    p{
+      font-size: 16px; 
+    }
+  }
+  .grid-button {
+    width: 79%;
+  }
+}
+
